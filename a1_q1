@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Assignment1 {
+    public static void main(String[] arg){
+        //QUESTION 1
+        System.out.println("*****");
+        System.out.println("   *");
+        System.out.println("  *");
+        System.out.println(" *");
+        System.out.println("*****");
+   }
+}
