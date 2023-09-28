@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Assignment1 {
+    public static void main(String[] arg){
+        Scanner scn = new Scanner(System.in);
+        int firstnum = scn.nextInt();
+        int lastnum = scn.nextInt();
+        System.out.println("All prime numbers from "+firstnum+" to "+lastnum+" are:");
+        for (int i=firstnum; i<lastnum; i++){
+            int count=0;
+            for (int div=2; div*div <=i; div++){
+                if (i % div==0){
+                    count++;
+                    break;
+                }
+            }
+            if (count==0){
+                System.out.println(i);
+                scn.close();
+            }
+        }
+    }
+}
