@@ -8,5 +8,5 @@ public class Assignment1 {
         System.out.println("  *");
         System.out.println(" *");
         System.out.println("*****");
-   }
+}
 }
